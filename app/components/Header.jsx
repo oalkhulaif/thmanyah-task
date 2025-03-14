@@ -9,7 +9,7 @@ export default function Header() {
             src="/thamnyah-logo.webp" 
             alt="logo"  
             className="w-auto" 
-            style={{ height: "50px", maxHeight: "100px" }}
+            style={{ height: "50px", maxHeight: "150px" }}
           />
           <SearchBar/>
         </div>
@@ -18,7 +18,7 @@ export default function Header() {
           <a
             href="https://thmanyah.com"
             className="border border-red-500 text-[#DD7258] text-xl font-medium px-6 py-3 rounded-full transition flex items-center justify-center"
-            style={{ minWidth: "120px", minHeight: "40px" }}
+            style={{ minWidth: "150px", minHeight: "40px" }}
           >
             الذهاب لموقع ثمانية
           </a>

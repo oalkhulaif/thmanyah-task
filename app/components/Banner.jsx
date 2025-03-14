@@ -14,7 +14,7 @@ export default function Banner() {
     ];
     
     return (
-        <section className="bg-[#1E1E1E] text-white text-center px-6 min-h-[425px] flex flex-col justify-start relative overflow-hidden">
+        <section className="bg-[#1E1E1E] text-white text-center px-6 min-h-[450px] flex flex-col justify-start relative overflow-hidden">
             
             <div className="w-full h-14 overflow-hidden bg-[#1E1E1E] mb-6 flex items-center">
                 <div className="flex items-center animate-seamless-scroll flex-nowrap">
@@ -46,7 +46,7 @@ export default function Banner() {
                 </p>
                 <a
     href="https://thmanyah.com/subscribe"
-    className="bg-[#3e3c3c] text-[#E1DCCC] px-8 py-4 text-3xl font-bold flex items-center justify-center gap-6 w-fit mx-auto hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-103"
+    className="bg-[#DB3C1D] text-[#E1DCCC] p-[6px] text-3xl font-bold flex items-center justify-center gap-6 w-fit mx-auto hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-103"
     style={{ borderRadius: "10px" ,fontSize: "1.5rem", lineHeight: "1.5"}} 
 >
     <span>اشترك الآن 🌟</span>
