@@ -1,9 +1,9 @@
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
 
+
 :root {
   --background: #F6F4EE;
-
   --foreground: #000000;
 }
 
@@ -11,4 +11,27 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes seamless-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-seamless-scroll {
+  animation: seamless-scroll 40s linear infinite;
+  display: flex;
+  width: max-content;
+  height: auto;
+  gap: 0.5rem;
+}
+
+
+.animate-seamless-scroll img {
+  height: 150px;
 }

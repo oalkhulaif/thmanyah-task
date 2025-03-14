@@ -17,7 +17,7 @@ export default function Header() {
         <div className="mr-auto"> 
           <a
             href="https://thmanyah.com"
-            className="border border-red-500 text-[#DD7258] text-xl font-medium px-6 py-3 rounded-full transition flex items-center justify-center m-auto"
+            className="border border-red-500 text-[#DD7258] text-xl font-medium px-6 py-3 rounded-full transition flex items-center justify-center"
             style={{ minWidth: "120px", minHeight: "40px" }}
           >
             الذهاب لموقع ثمانية
