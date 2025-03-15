@@ -30,9 +30,9 @@ export default function Banner() {
                 </div>
             </div>
 
-            <div className="max-w-4xl mx-auto z-10 pt-6 mt-[50px]">
+            <div className="max-w-4xl mx-auto z-10 pt-6 mt-[40px]">
                 <h1 
-                    className="text-[#E1DCCC] font-extrabold mb-8"
+                    className="text-[#E1DCCC]"
                     style={{ fontSize: "5rem", lineHeight: "1.2" }} 
                 >
                     اشترك في ثمانية
@@ -45,9 +45,9 @@ export default function Banner() {
                 </p>
                 <a
                     href="https://thmanyah.com/subscribe"
-                    className="bg-[#DB3C1D] text-[#E1DCCC] p-[6px] text-3xl font-bold flex items-center justify-center gap-6 w-fit mx-auto hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-103"
+                    className="bg-[#DB3C1D] text-[#E1DCCC] p-[6px] text-3xl font-bold flex items-center justify-center gap-6 w-fit mx-auto mb-[10px] hover:transition-all duration-300 ease-in-out transform hover:scale-103"
                     style={{ borderRadius: "10px" ,fontSize: "1.5rem", lineHeight: "1.5"}} >
-                    <span>اشترك الآن 🌟</span>
+                    <span className="">اشترك الآن 🌟</span>
                 </a>
             </div>
         </section>

@@ -25,10 +25,10 @@ export default function ShowsList() {
 
     useEffect(() => {
         function updateCardCount() {
-            if (window.innerWidth < 768) {
+            if (window.innerWidth < 768) { 
                 setVisibleCards(3);
                 setSelectedIndex(1);
-            } else {
+            } else { 
                 setVisibleCards(5);
                 setSelectedIndex(2);
             }
@@ -59,24 +59,24 @@ export default function ShowsList() {
     }
 
     return (
-        <div className="relative">
+        <div className="relative w-full overflow-hidden">
             <h1 className="font-bold m-[6px] text-center" style={{ fontSize: "2.2rem" }}>
                 🎤 برامج مقترحة من فريق ثمانية
             </h1>
 
             <div className="flex justify-center mb-[100px] transition-transform duration-1000 ease-in-out">
-                {podcasts.slice(0, visibleCards).map((podcast, index) => (
-                    <ShowCard
-                        key={podcast.podcast_id}
-                        show={{
-                            id: podcast.podcast_id,
-                            title: podcast.name,
-                            image: podcast.avatar_url,
-                        }}
-                        isSelected={index === Math.floor(visibleCards / 2)}
-                        onClick={() => handleSelect(index)}
-                    />
-                ))}
+            {podcasts.slice(0, visibleCards).map((podcast, index) => (
+                <ShowCard
+                    key={podcast.podcast_id}
+                    show={{
+                        id: podcast.podcast_id,
+                        title: podcast.name,
+                        image: podcast.avatar_url,
+                    }}
+                    isSelected={index === Math.floor(visibleCards / 2)} 
+                    onClick={() => handleSelect(index)}
+                />
+            ))}
             </div>
         </div>
     );
