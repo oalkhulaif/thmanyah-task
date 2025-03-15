@@ -1,9 +1,8 @@
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
 
-
 :root {
-  --background: #F6F4EE;
+  --background: #f6f4ee;
   --foreground: #000000;
 }
 
@@ -27,7 +26,6 @@ body {
   0% {
     transform: translateX(100%);
   }
-
   100% {
     transform: translateX(0%);
   }
@@ -41,8 +39,13 @@ body {
   gap: 0.5rem;
 }
 
+/* Mobile: Faster but readable */
+@media (max-width: 768px) {
+  .animate-seamless-scroll {
+    animation-duration: 10s !important; 
+  }
+}
 
 .animate-seamless-scroll img {
   height: 150px;
 }
-
