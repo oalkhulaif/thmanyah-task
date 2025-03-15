@@ -1,4 +1,3 @@
-import Header from "./components/Header/Header";
 import Banner from "./components/Banner";
 import PodcastList from "./components/Episods/PodcastList";
 import ShowsList from "./components/Shows/ShowsList";

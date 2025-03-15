@@ -40,21 +40,15 @@ export default function Banner() {
 
                 <p 
                     className="text-[#E1DCCC] mb-[20px]"
-                    style={{ fontSize: "2rem", lineHeight: "1.5" }} 
-                >
+                    style={{ fontSize: "2rem", lineHeight: "1.5" }} >
                     احصل على تجربة استماع فريدة للبودكاست والمزيد من المحتوى المميز
                 </p>
                 <a
-    href="https://thmanyah.com/subscribe"
-    className="bg-[#DB3C1D] text-[#E1DCCC] p-[6px] text-3xl font-bold flex items-center justify-center gap-6 w-fit mx-auto hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-103"
-    style={{ borderRadius: "10px" ,fontSize: "1.5rem", lineHeight: "1.5"}} 
->
-    <span>اشترك الآن 🌟</span>
-</a>
-
-
-
-
+                    href="https://thmanyah.com/subscribe"
+                    className="bg-[#DB3C1D] text-[#E1DCCC] p-[6px] text-3xl font-bold flex items-center justify-center gap-6 w-fit mx-auto hover:bg-gray-900 transition-all duration-300 ease-in-out transform hover:scale-103"
+                    style={{ borderRadius: "10px" ,fontSize: "1.5rem", lineHeight: "1.5"}} >
+                    <span>اشترك الآن 🌟</span>
+                </a>
             </div>
         </section>
     );

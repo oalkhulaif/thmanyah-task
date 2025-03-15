@@ -1,5 +1,5 @@
 export default function PodcastEpisode({ episode }) {
-    const imageUrl = episode.avatar_url || "/placeholder.png";
+    const imageUrl = episode.avatar_url;
 
     return (
         <div className="w-[260px] flex-shrink-0 flex flex-col items-center">
@@ -27,7 +27,8 @@ export default function PodcastEpisode({ episode }) {
             >
                 <div className="flex flex-col w-full items-center">
                     <h3 
-className="text-md font-bold break-words whitespace-normal leading-tight"                        style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}
+                        className="text-lg font-bold break-words whitespace-normal leading-tight"                        
+                        style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}
                     >
                         {episode.name}
                     </h3>
@@ -41,7 +42,7 @@ className="text-md font-bold break-words whitespace-normal leading-tight"       
                     >
                         تشغيل
                     </button>
-                    <span className="text-sm">⏳ {Math.floor((episode.duration || 0) / 60)} دقيقة</span>
+                    <span className="text-sm">⏳ {Math.round((episode.duration || 0) / 60)} دقيقة</span>
                 </div>
             </div>
         </div>
