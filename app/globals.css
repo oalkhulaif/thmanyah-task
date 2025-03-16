@@ -39,7 +39,6 @@ body {
   gap: 0.5rem;
 }
 
-/* Mobile: Faster but readable */
 @media (max-width: 768px) {
   .animate-seamless-scroll {
     animation-duration: 10s !important; 

@@ -50,7 +50,7 @@ export default function Header() {
             <div className="mr-auto"> 
                 <a
                     href="https://thmanyah.com"
-                    className="border border-red-500 text-[#DD7258] text-sm lg:text-lg font-medium px-3 lg:px-6 py-1.5 lg:py-3 rounded-full transition hover:bg-[#DD7258] hover:text-white flex items-center justify-center"
+                    className="border border-red-500 text-[#DD7258] text-sm lg:text-lg font-medium px-3 lg:px-6 py-1.5 lg:py-3 rounded-full transition flex items-center justify-center"
                     style={{ minWidth: "150px", minHeight: "40px" }}
                 >
                     الذهاب لموقع ثمانية
